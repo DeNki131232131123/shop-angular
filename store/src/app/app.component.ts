@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Cart } from './models/cart.model';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'store';
+
 }
