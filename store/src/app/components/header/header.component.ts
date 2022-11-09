@@ -14,11 +14,11 @@ export class HeaderComponent {
   private _cart: Cart = { items: []};
   itemsQuantity = 0;
 
-  @Input()
+ 
   get cart(): Cart{
     return this._cart;
   }
-
+  @Input()
   set cart(cart: Cart){
     this._cart = cart;
 
