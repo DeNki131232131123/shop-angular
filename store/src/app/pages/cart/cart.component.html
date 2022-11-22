@@ -73,7 +73,9 @@
            </button>
         </td>
         <td mat-footer-cell *matFooterCellDef>
-            <button mat-raised-button class="float-right" color="primary">
+            <button 
+                (click)="onCheckout()"
+                mat-raised-button class="float-right" color="primary">
                 Proceed To checkout
             </button>
         </td>
